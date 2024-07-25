@@ -38,7 +38,7 @@ const About = () => {
       </p>
       
       <h2 className="text-2xl font-bold mb-4">Who made this?</h2>
-      <p className="mb-4">This was a weekend<sup class="font-features sups">*</sup> project made by <a href="https://twitter.com/seantheolane" className="text-blue-500 underline">Sean Lane</a>.</p>
+      <p className="mb-4">This was a weekend<sup class="font-features sups">*</sup> project made by <a href="https://twitter.com/seantheolane" className="text-blue-500 underline">Sean Lane</a>. The source code is available at <a href="https://github.com/seanlane/mapcast-public" className="text-blue-500 underline">github.com/seanlane/mapcast-public</a>. Be gentle.</p>
       
       <h2 className="text-2xl font-bold mb-4">How did you make this?</h2>
       <p className="mb-4">
@@ -119,7 +119,7 @@ const accordionData = [
     title: 'Is the code open source?',
     content: (
       <span>
-         Not yet. I'll probably unload it eventually. Once I'm not too ashamed of my React code. And worker code. And Python code. It's not pretty. But maybe it works?
+         Yeah, it is now. The source code is available at <a href="https://github.com/seanlane/mapcast-public" className="text-blue-500 underline">github.com/seanlane/mapcast-public</a>. It's not the prettiest repo in the world, but it gets the job done.
       </span>
     ),
   },
