@@ -1,0 +1,16 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.userbox {
+  float: left;
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  clear: both;
+}

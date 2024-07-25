@@ -1,0 +1,17 @@
+# Docker compose for mapcast-query
+version: '3'
+services:
+  mapcast-query:
+    build: .
+    container_name: mapcast-query
+    volumes:
+      - /vault/docker/mapcast:/db
+    env_file:
+      - secrets.env
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10k"
+        max-file: "10"
+    
