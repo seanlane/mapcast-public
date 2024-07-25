@@ -19,3 +19,8 @@ Below are the rough steps to get this running. If there's interest, I can flesh 
 1. Deploy `mapcast-index` as a Cloudflare Worker Pages website
     - Some changes required to make requests from the right bucket
 1. Deploy `mapcast-query` somewhere, configured to poll from the right bucket.
+
+## Future work
+
+1. Get a decent VM running and use something like Livekit.io to push updates in realtime
+1. ...to be continued...
